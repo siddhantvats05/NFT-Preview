@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Outfit',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: darkblue;
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+}
+/* BOX  */
+.entire{
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    border-radius: 13px;
+    padding: 14px;
+}
+
+/* equilibrium  */
+/* img  */
+#cardhead img.mainimg{
+    /* opacity: 1; */
+    /* padding: 10px; */
+    height: 250px;
+    width: 270px;
+    border-radius: 10px;
+    /* background-color: hsl(178, 100%, 50%); */
+}
+.overlay {
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;    
+    top: 15px;    
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;  
+    opacity: 0; 
+    cursor: pointer;    
+}
+
+.overlay:hover {    
+    background-color: hsla(178, 100%, 50%, 0.5);
+    opacity: 4;
+} 
+            
+/* heading  */
+#cardhead h2{
+    padding:1rem 0.2rem;
+}
+#cardhead h2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 0.2s;
+}
+/* para  */
+.para{
+    color:hsl(223.8.20.7%,35.1%);
+}
+/* Cost and time left  */
+.numline{
+    display: flex;
+    font-weight: bold;
+    /* padding-left: 12px; */
+    padding-top: 0.5rem;
+    /* margin-bottom: 10px; */
+}
+.numline #num{
+    /* color:blue; */
+    color:hsl(178, 100%, 50%);
+}
+.numline #clockimg{
+    padding-left: 90px;
+}
+.numline #line{
+    padding-left: 2px;
+    color: darkgray;
+}
+
+hr{
+    margin-top: 1em;
+    color: gray;
+    /* width: 50%; */
+    justify-content: start;
+    align-items: center;
+}
+/* Creator details  */
+.creation{
+    display: flex;
+    margin-top: 1.2em;
+    font-weight: bold;
+}
+.creation img{
+    height: 48px;
+    width: 48px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#stuff{
+    color: hsl(223.8.20.7%,35.1%);
+    padding: 0 0.2rem 0 0.5rem;
+}
+#name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 0.2s;
+}
+
+@media screen and (max-width:310px){
+    .entire{
+        height:600px;
+        width: 250px;
+    }
+    #cardhead img{
+        width: 225px;
+    }
+    #cardhead h2{
+        padding-top: 10px;
+    }
+    .para{
+        padding-top: 5px;
+    }
+    .creation .creator{
+        padding-top: 15px;
+    }
+}
