@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://siddhantvats05.github.io/NFT-Preview/
 
 
 ### Built with
@@ -33,12 +33,10 @@ Users should be able to:
 - Flexbox
 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - Siddhant Vats
+- Frontend Mentor - siddhantvats05(https://www.frontendmentor.io/profile/siddhantvats05)
 
 
 
